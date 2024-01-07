@@ -1,0 +1,399 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#ProfileImage {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px 5px rgba(52, 152, 219, 0.7);
+}
+
+#About {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.name {
+    color: #007bff; /* Primary color for the name */
+}
+
+#Headline {
+    color: #6c757d; /* Subtle text color */
+    font-size: 1.5rem;
+}
+
+.myinfo {
+    font-size: 1.2rem;
+    color: #495057; /* Dark text color */
+}
+
+.hero {
+    border-bottom: 2px solid #dee2e6; /* Border color */
+}
+
+.display-1 {
+    font-size: 3rem; /* Adjust the size of the display heading */
+    margin-bottom: 20px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #dee2e6; /* Border color */
+}
+
+.col-lg-9 {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto;
+}
+.EducationArea
+{
+    color: #010013;
+    padding: 5% 5%;
+    margin: 5% 5%;
+    display: grid;
+    width: 90%;
+    height:75%;
+    grid-template-rows: auto 1fr 1fr;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(130,130,130,0.5);
+    border-radius: 20px;
+}
+.EducationArea:hover
+{
+    box-shadow:0 1px 40px rgba(0, 0, 0, 0.3);
+    transform: scale(0.9,0.9);    
+}
+#JIIT
+{
+    grid: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subtitle
+{
+    color: rgb(130,130,130);
+}
+
+.logoedu
+{
+    width: 15vh;
+    margin-top: -125px;    
+}
+
+.mark{
+    width: 1180px;
+    justify-content: center;
+    height: 550px;
+    margin-top: -125px;
+}
+
+#EducationTitle
+{
+    grid: 1;
+    text-align: center;
+    color: #010013;
+    font-size: 3rem;
+}
+
+#Projects,
+#Certifications,
+#Clubs,
+#Memberships,
+#Coding_Profiles {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.projarea
+{
+    background-color:rgb(231,231,231);
+}
+#Projects
+{
+    padding-top: 50px;
+    text-align: center;
+    color: #010013;
+    font-size: 3rem;
+}
+.ProjectIMG
+{
+    width: 75%;
+    border-radius: 5px;
+}
+.card1
+{   background-color: #e74c3c;
+    grid: 1 ;
+}
+.card2
+{  
+    grid: 2;
+    background-color: #e74c3c;
+}
+
+.outerBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.col {
+    background-color: #e74c3c; /* Updated background color */
+    color: #fff; /* White text color */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.projarea {
+    background-color: #f4f4f4; /* Light background color */
+}
+
+
+
+
+#Contact {
+    background-color: darkorange;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#INFO,
+#INFO2 {
+    color: #fff;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#Fotter {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#Skills {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+#Buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
+.Socials {
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+#Plane {
+    width: 50px;
+    padding: 5px;
+}
+
+.mailfixed {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
+}
+
+.mailfixed:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+header {
+    background-color: darkblue; /* Dark background color */
+    padding: 5px 0; /* Adjust padding as needed */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-white {
+    color: #fff  !important; /* White text color */
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: wheat;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+.pro {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.certificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.certificate-card {
+    width: 250px;
+    height: 100px;
+    background-color: orange; /* Set background color */
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.certificate-card:hover {
+    transform: scale(1.05);
+}
+
+.certificate-name {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #fff; /* Set text color */
+}
+
+.profile-card {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #28a745; /* Set background color */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    color: #fff;
+}
+
+.profile-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px; /* Optional margin for spacing */
+    border-radius: 50%; /* Make the logo circular */
+}
+
+.profile-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.membership-card {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e74c3c;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    color: #fff;
+}
+
+.membership-card:hover {
+    transform: rotate3d(1, 2, 3, 3deg);
+}
+
+.organization-logo {
+    width: 700px; /* Adjust the size as needed */
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px; /* Optional margin for spacing */ /* Make the logo circular */
+}
